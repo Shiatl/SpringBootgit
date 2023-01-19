@@ -22,4 +22,8 @@ public class ApplicationController {
     public String sayServices(){
         return "SOFTWARE DEVELOPMENT";
     }
+    @GetMapping("/loaneligibility")
+    public String loanEligibility(){
+        return "YES Eligible for Loan";
+    }
 }
